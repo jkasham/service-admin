@@ -1,0 +1,29 @@
+{
+  "name": "service-admin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.14.2",
+    "body-parser": "^1.19.0",
+    "intuit-oauth": "^1.2.0",
+    "ngrok": "^2.2.9",
+    "path": "^0.12.7",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  }
+}

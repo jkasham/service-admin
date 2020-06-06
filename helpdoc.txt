@@ -1,0 +1,17 @@
+
+Package so that xml is accepted
+npm install --save-dev @babel/core @bel/core @babel/node @babel/preset-env
+
+
+Package so you dont have to restart the server each time there is a change
+npm install --save-dev nodemon
+To run server:
+npx nodemon --exec npx babel-node src/server.js
+
+
+//Installing mongodb
+brew install mongodb
+//Make a directory for the db
+sudo mkdir -p /data/db
+//change permissions on directory
+sudo chown -R `id -un` /data/db
